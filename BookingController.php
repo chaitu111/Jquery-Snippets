@@ -19,10 +19,14 @@ class Pcsbooking extends CI_Controller
 		$this->db->where('service_type', 4);
 		$query1 = $this->db->get();
 		$retail_service_types =  $query1->result_array();
-		$data['first_class_clothes'] = $retail_service_types;
-		//$data[$retail_service_types][''] = $retail_service_types;
+		$data1['first_class_clothes_data'] = $retail_service_types;
 		
+		foreach($data1['first_class_clothes_data']  as $k => $v)
+		{
+			$data['first_class_clothes'][$v['category']][] = $v;
+		}
 		
+		//echo '<pre>'; print_r($data); echo '</pre>'; exit;
 		$this->load->view("frontend/pcsbooking",$data);
     }
 	
