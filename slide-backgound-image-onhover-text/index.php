@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
    <head>
       <meta charset="utf-8">
       <!--[if IE]>
       <meta http-equiv="x-ua-compatible" content="IE=9" />
       <![endif]-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>7L Express Laundry Services - Hyderabad</title>
+      <title>Hyderabad</title>
       <meta name="description" content="One of the best laundry services in Hyderabad">
       <meta name="keywords" content="One of the best laundry services in Hyderabad">
       <meta name="author" content="">
@@ -34,26 +34,7 @@
       <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/frontend/css/style.css" />
       <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/frontend/css/menu.css" />
       <script type="text/javascript" src="<?php echo base_url() ?>assets/frontend/js/vendor/modernizr.min.js"></script>
-      <style>
-         section.call-to-action {
-         background:/* #0086d2 */#fff;
-         }
-         section.call-to-action2 {
-         background: #fff;
-         }
-         .call-to-action h1 {
-         text-transform:uppercase;
-         color:#fff;
-         font-size:30px;
-         }
-         div.owl-item{
-         width: 380px;
-         margin-right: 30px;
-         }
-         .testimony {
-         right: 60px;
-         }
-      </style>
+     
    </head>
    <body>
       <?php include('menu.php') ?>
@@ -68,9 +49,7 @@
                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-
                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
                </ol>-->
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -139,42 +118,7 @@
          <!-- /carousel -->
       </div>
 
-      <!--
-         <div class="col-sm-12">
-           <p class="heading7l"> 7L Express Laundry Services </p>
-         </div>
-         <p style="text-align:center;"><b>" We Bring The Freshness Back "</b></p>
-         -->
-      <!-- TESTIMONIALS -->
-      <!--<section class="call-to-action">
-         <div class="container">
-           <div class="row">
-             <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
-               <div class="box" style="padding-top:15px;">
-                 <div class="icon">
-                   <div class="image"><i class="fa fa-desktop"></i> </div>
-                   <div class="info">
-                     <h2 class="title"><span class="pull-left">For Website Orders</span> <span class="pull-right">Book Now</span> </h2>
-                   </div>
-                 </div>
-                 <div class="space"></div>
-               </div>
-             </div>
-             <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
-               <div class="box" style="padding-top:15px;">
-                 <div class="icon">
-                   <div class="image"><i class="fa fa-phone"></i> </div>
-                   <div class="info">
-                     <h2 class="title"><span class="pull-left">For Tollfreee Orders</span> <span class="pull-right"> 1800-000-0000</span> </h2>
-                   </div>
-                 </div>
-                 <div class="space"></div>
-               </div>
-             </div>
-
-           </div>
-         </div>
-         </section>-->
+      
       <?php include('footer.php') ?>
 	    </div>
       <!-- JS VENDOR -->
@@ -187,59 +131,9 @@
       <!-- sendmail -->
       <script type="text/javascript" src="<?php echo base_url() ?>assets/frontend/js/script.js"></script>
       <script></script>
-      <script>var hotbod = document.querySelector("body");
-         function doStuff() {
-             hotbod.className += " animate";
-         }
-
-         window.onload = function() {
-             doStuff();
-         };
-      </script>
-      <script type="text/javascript">
-         /*global $ */
-         $(document).ready(function () {
-
-            "use strict";
-
-            $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
-            //Checks if li has sub (ul) and adds class for toggle icon - just an UI
-
-
-            $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
-            //Checks if drodown menu's li elements have anothere level (ul), if not the dropdown is shown as regular dropdown, not a mega menu (thanks Luka Kladaric)
-
-            $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">Menu</a>");
-
-            //Adds menu-mobile class (for mobile toggle menu) before the normal menu
-            //Mobile menu is hidden if width is more then 959px, but normal menu is displayed
-            //Normal menu is hidden if width is below 959px, and jquery adds mobile menu
-            //Done this way so it can be used with wordpress without any trouble
-
-            $(".menu > ul > li").hover(function (e) {
-                if ($(window).width() > 943) {
-                    $(this).children("ul").stop(true, false).fadeToggle(150);
-                    e.preventDefault();
-                }
-            });
-            //If width is more than 943px dropdowns are displayed on hover
-
-            $(".menu > ul > li").click(function () {
-                if ($(window).width() <= 943) {
-                    $(this).children("ul").fadeToggle(150);
-                }
-            });
-            //If width is less or equal to 943px dropdowns are displayed on click (thanks Aman Jain from stackoverflow)
-
-            $(".menu-mobile").click(function (e) {
-                $(".menu > ul").toggleClass('show-on-mobile');
-                e.preventDefault();
-            });
-            //when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
-
-         });
-      </script>
-      <script>
+      
+	  
+	  <script>
          $(document).ready(function(){
 
          	  $(".img1").on({
